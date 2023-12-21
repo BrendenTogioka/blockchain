@@ -35,7 +35,7 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className="py-12 px-6 z-10 relative">
+    <section id="learn" className="py-12 px-6 z-10 relative">
       <div className="sm:flex">
         <div className="flex flex-col sm:w-[40vw] gap-1 items-center sm:items-start mb-4">
           <h2 className="text-3xl text-center sm:text-left">
