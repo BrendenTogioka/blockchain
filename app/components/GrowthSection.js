@@ -17,7 +17,7 @@ export default function GrowthSection() {
         </div>
       </div>
 
-      <div className="px-6 flex">
+      <div className="px-6 sm:flex">
         <Image src={growthImg} alt="anybodies growth" />
         <div className="bg-[#1A1A1A] flex flex-col gap-3 p-6">
           <h3 className="text-xl font-bold">Anybodies</h3>
