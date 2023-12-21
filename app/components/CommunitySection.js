@@ -7,7 +7,7 @@ import community5 from "@/public/images/community-5.png";
 
 export default function CommunitySection() {
   return (
-    <section className="px-6 py-10 flex flex-col gap-6">
+    <section id="commmunity" className="px-6 py-10 flex flex-col gap-6">
       <h2 className="text-3xl text-center ">Join a thriving community.</h2>
       <div className="flex flex-col gap-4 sm:grid sm:grid-cols-2 text-center">
         <div className="flex flex-col justify-center items-center gap-2 bg-[#1A1A1A] py-10 sm:px-6">
