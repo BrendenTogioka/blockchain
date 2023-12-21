@@ -5,7 +5,7 @@ const tags = ["NFTs", "DeFi", "Payments", "Gaming", "DAOs"];
 
 export default function GrowthSection() {
   return (
-    <section className="flex flex-col gap-8 py-10">
+    <section id="build" className="flex flex-col gap-8 py-10">
       <div className="flex flex-col justify-center items-center gap-4">
         <h2 className="text-3xl text-center ">Build for growth.</h2>
         <div className="flex gap-2">
