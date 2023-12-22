@@ -1,6 +1,6 @@
 import Image from "next/image";
-import logo from "@/public/images/solanalogo.png";
 import Link from "next/link";
+import logo from "@/public/images/solanalogo.png";
 
 export default function Navbar() {
   return (
