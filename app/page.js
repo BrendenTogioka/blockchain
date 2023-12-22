@@ -1,5 +1,6 @@
 import Image from "next/image";
 import heroBg from "@/public/images/hero-bg.png";
+import thirdBg from "@/public/images/third-bg.png";
 
 import secondBg from "@/public/images/second-bg.png";
 
@@ -8,6 +9,7 @@ import FeaturesSection from "./components/FeaturesSection";
 import SocialProof from "./components/SocialProof";
 import CommunitySection from "./components/CommunitySection";
 import GrowthSection from "./components/GrowthSection";
+import { BackToTop } from "./components/BackToTop";
 
 export default function Home() {
   return (
@@ -62,7 +64,30 @@ export default function Home() {
 
       <GrowthSection />
 
-      <CommunitySection />
+      <div className="relative mt-16">
+        <CommunitySection />
+
+        <section className=" px-6 py-12 max-w-[720px] m-auto flex flex-col gap-6 justify-center items-center relative z-10">
+          <h2 className="text-center text-3xl sm:text-3xl w-[32ch] m-auto">
+            It&apos;s time to join the thousands of creators, artists, and
+            developers using Solana.
+          </h2>
+          <button
+            type="button"
+            className="py-2 px-4 uppercase bg-gradient-to-r from-indigo-500 hover:from-indigo-500/[0] hover:to-indigo-500  rounded-full"
+          >
+            start building
+          </button>
+        </section>
+
+        <Image
+          src={thirdBg}
+          alt="third bg"
+          className="absolute bottom-0  md:top-1/2 md:-translate-y-1/2 z-0"
+        />
+      </div>
+
+      <BackToTop />
     </div>
   );
 }

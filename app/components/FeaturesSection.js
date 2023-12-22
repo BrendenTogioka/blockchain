@@ -2,7 +2,7 @@ const features = [
   {
     title: "Fast",
     description:
-      "Don&apos;t keep your users waiting. Solana has block times of 400 milliseconds — and as hardware gets faster, so will the network.",
+      "Don't keep your users waiting. Solana has block times of 400 milliseconds — and as hardware gets faster, so will the network.",
     stat: "3,969",
     label: "transactions per second",
     color: "teal-500",
@@ -26,7 +26,7 @@ const features = [
   {
     title: "Energy Efficient",
     description:
-      "Solana&apos;s proof of stake network and other innovations minimize its impact on the environment. Each Solana transaction uses about the same energy as a few Google searches.",
+      "Solana's proof of stake network and other innovations minimize its impact on the environment. Each Solana transaction uses about the same energy as a few Google searches.",
     stat: "0%",
     label: "net carbon impact",
     color: "green-500",
@@ -35,7 +35,10 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className="py-12 px-6 z-10 relative">
+    <section
+      id="learn"
+      className="py-20 px-6 z-10 relative max-w-[960px] mx-auto"
+    >
       <div className="sm:flex">
         <div className="flex flex-col sm:w-[40vw] gap-1 items-center sm:items-start mb-4">
           <h2 className="text-3xl text-center sm:text-left">

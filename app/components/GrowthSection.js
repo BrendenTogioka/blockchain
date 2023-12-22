@@ -5,7 +5,10 @@ const tags = ["NFTs", "DeFi", "Payments", "Gaming", "DAOs"];
 
 export default function GrowthSection() {
   return (
-    <section className="flex flex-col gap-8 py-10">
+    <section
+      id="build"
+      className="flex flex-col gap-8 py-10 max-w-[960px] mx-auto relative z-10"
+    >
       <div className="flex flex-col justify-center items-center gap-4">
         <h2 className="text-3xl text-center ">Build for growth.</h2>
         <div className="flex gap-2">
@@ -17,7 +20,7 @@ export default function GrowthSection() {
         </div>
       </div>
 
-      <div className="px-6 flex">
+      <div className="px-6 sm:flex">
         <Image src={growthImg} alt="anybodies growth" />
         <div className="bg-[#1A1A1A] flex flex-col gap-3 p-6">
           <h3 className="text-xl font-bold">Anybodies</h3>
