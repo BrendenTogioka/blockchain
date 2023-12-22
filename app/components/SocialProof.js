@@ -9,7 +9,7 @@ import proof7 from "@/public/images/proof7.png";
 
 export default function SocialProof() {
   return (
-    <section>
+    <section className="relative z-10">
       <h3 className="px-6 mb-4 text-indigo-500 font-medium text-center">
         Powering tools and integrations from companies all around the world
       </h3>

@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <section className="relative flex flex-col px-6 justify-between items-center text-center py-32">
-        <div className="z-10 flex flex-col gap-5  justify-center items-center">
+        <div className="relative z-10 flex flex-col gap-5  justify-center items-center">
           <h1 className="text-4xl sm:text-5xl font-black">
             Powerful for developers.
             <br />
@@ -68,7 +68,7 @@ export default function Home() {
         <CommunitySection />
 
         <section className=" px-6 py-12 max-w-[720px] m-auto flex flex-col gap-6 justify-center items-center relative z-10">
-          <h2 className="text-center text-3xl sm:text-3xl w-[32ch] m-auto">
+          <h2 className="text-center text-2xl sm:text-3xl sm:w-[32ch] m-auto">
             It&apos;s time to join the thousands of creators, artists, and
             developers using Solana.
           </h2>
